@@ -7,7 +7,7 @@ from datetime import datetime
 # ---------------------------------------------------------
 # ضع مفتاح Gemini API هنا
 # ---------------------------------------------------------
-genai.configure(api_key="AIzaSyAaLeEulxYgS25yNDMHHImkNMCNk_iUiUA")
+genai.configure(api_key="")
 
 # ---------------------------------------------------------
 # المواضيع المدعومة
@@ -136,3 +136,4 @@ if __name__ == "__main__":
             print("تم الإغلاق.")
             break
         print("\nالجواب:\n" + chatbot(q))
+
